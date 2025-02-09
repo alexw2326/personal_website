@@ -5,8 +5,8 @@
   "homepage": "https://alexw2326.github.io/personal_website",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

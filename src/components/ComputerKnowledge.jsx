@@ -28,6 +28,7 @@ const skills = [
       { name: "HTML", proficiency: proficiencyLevels[3] },
       { name: "CSS", proficiency: proficiencyLevels[3] },
       { name: "SQL", proficiency: proficiencyLevels[2] },
+      { name: "React", proficiency: proficiencyLevels[3] },
     ],
   },
   {

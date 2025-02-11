@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/EscapeTheCave.png";
+import project2 from "../assets/projects/Calendar.png";
+import project3 from "../assets/projects/MathWordle.png";
+import project4 from "../assets/projects/FifteenGame.png";
 
 export const HERO_CONTENT = `I am a third year computer science major with a concentration in software. 
 Throughout the years I have taken classes in and learned multiple coding languages including Java, 

@@ -1,4 +1,4 @@
-import { Code, Globe, Wrench } from "lucide-react";
+import { Code, Globe, Wrench, Monitor } from "lucide-react";
 
 const proficiencyLevels = [
   { label: "Beginner", color: "bg-blue-100 text-blue-800" },
@@ -13,10 +13,10 @@ const skills = [
     icon: <Code className="w-6 h-6" />,
     items: [
       { name: "Java", proficiency: proficiencyLevels[3] },
-      { name: "JavaScript", proficiency: proficiencyLevels[1] },
-      { name: "C#", proficiency: proficiencyLevels[1] },
-      { name: "C++", proficiency: proficiencyLevels[1] },
       { name: "Python", proficiency: proficiencyLevels[2] },
+      { name: "C#", proficiency: proficiencyLevels[1] },
+      { name: "C", proficiency: proficiencyLevels[1]},
+      { name: "C++", proficiency: proficiencyLevels[1] },
       { name: "MATLAB", proficiency: proficiencyLevels[1] },
       { name: "DrRacket", proficiency: proficiencyLevels[2] },
     ],
@@ -29,16 +29,27 @@ const skills = [
       { name: "CSS", proficiency: proficiencyLevels[3] },
       { name: "SQL", proficiency: proficiencyLevels[2] },
       { name: "React", proficiency: proficiencyLevels[3] },
+      { name: "JavaScript", proficiency: proficiencyLevels[1] },
+      { name: "Tailwind CSS", proficiency: proficiencyLevels[2] },
     ],
   },
   {
     category: "Engineering Tools",
     icon: <Wrench className="w-6 h-6" />,
     items: [
+      { name: "Git", proficiency: proficiencyLevels[3] },
+      { name: "GitHub", proficiency: proficiencyLevels[3] },
       { name: "SOLIDWORKS", proficiency: proficiencyLevels[2] },
       { name: "Arduino", proficiency: proficiencyLevels[1] },
       { name: "AutoCAD", proficiency: proficiencyLevels[2] },
-      { name: "LTSpice", proficiency: proficiencyLevels[0] },
+    ],
+  },
+  {
+    category: "Operating Systems",
+    icon: <Monitor className="w-6 h-6" />,
+    items: [
+      { name: "Windows", proficiency: proficiencyLevels[3] },
+      { name: "Linux", proficiency: proficiencyLevels[2] }
     ],
   },
 ]

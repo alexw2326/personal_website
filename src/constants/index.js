@@ -3,11 +3,16 @@ import project2 from "../assets/projects/Calendar.png";
 import project3 from "../assets/projects/MathWordle.png";
 import project4 from "../assets/projects/FifteenGame.png";
 
-export const HERO_CONTENT = `I am a third year computer science major with a concentration in software. 
-Throughout the years I have taken classes in and learned multiple coding languages including Java, 
-Python, HTML, and CSS. I love almost any form of coding and I knew I wanted to do something computer 
-science related in college when I would look forward to finishing my coding homework in high school 
-and working on random coding projects outside of class.`;
+export const HERO_CONTENT = `Hi! My name is Alexandria, but you can call me Alex. I am a fourth year computer 
+science major with a concentration in software. Throughout the years I have taken 
+classes in and learned multiple coding languages including Java, Python, HTML,
+and CSS. \n
+I love many forms of coding and I knew I wanted to do something computer 
+science related in college when I would look forward to finishing my coding 
+homework in high school and working on random coding projects outside of class. \n
+Some of my hobbies include playing golf, video games, and watching hockey. I 
+have also recently gotten into crochetting which I have been working hard to learn 
+and get better at.`;
 
 export const EDUCATION = [
   {
@@ -16,8 +21,8 @@ export const EDUCATION = [
     location: "Boston, MA",
     dates: "September 2022-PRESENT",
     degree: "Candidate for a Bachelor's of Science in Computer Science",
-    honors: "GPA: 3.68/4.0, Dean's Scholarship, Dean's List",
-    activities: "First Byte, NU Mars Rover, Forge, Intramural Ice Hockey, Intramural Broomball",
+    honors: "GPA: 3.7/4.0, Dean's Scholarship, Dean's List",
+    activities: "First Byte (Vice President), NU Mars Rover, Forge, Intramural Ice Hockey, Intramural Broomball",
   },
   {
     name: "Ursuline Academy",

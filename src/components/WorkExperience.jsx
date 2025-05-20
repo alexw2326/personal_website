@@ -9,10 +9,10 @@ const WorkExperience = () => {
             <h1 className="mb-8 text-center text-4xl">Work Experience</h1>
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8 flex items-center">
-                    <div className="space-y-10">
+                    <div className="space-y-6">
                         {EXPERIENCES.slice(0, 2).map((experiences, index) => (
                         <div key={index} className="flex flex-col">
-                            <p className="mb-2 text-sm text-neutral-700">{experiences.year}</p>
+                            <p className="text-sm text-neutral-700">{experiences.year}</p>
                             <h6 className="mb-2 font-bold">
                                 {experiences.role} - 
                                 <span className="text-sm text-neutral-600"> {experiences.company}, </span> 
@@ -41,10 +41,10 @@ const WorkExperience = () => {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:p-8 flex items-center">
-                            <div className="space-y-10">
+                            <div className="space-y-6">
                                 {EXPERIENCES.slice(2, 4).map((experiences, index) => (
                                     <div key={index} className="flex flex-col">
-                                        <p className="mb-2 text-sm text-neutral-700">{experiences.year}</p>
+                                        <p className="text-sm text-neutral-700">{experiences.year}</p>
                                         <h6 className="mb-2 font-bold">
                                             {experiences.role} - 
                                             <span className="text-sm text-neutral-600"> {experiences.company}, </span> 

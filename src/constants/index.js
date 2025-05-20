@@ -41,19 +41,26 @@ export const EXPERIENCES = [
     year: "July 2024 - December 2024",
     role: "Help Desk Intern",
     company: "Analysis Group",
-    description: `Assist users with their daily issues and help the team with any ongoing projects. Build and configure laptops for new hires.`,
+    description: `I worked with the Help Desk systems engineers and fellow interns to help users with their hardware problems. The main projects included configuring and deploying laptops
+    for the new hires, replacing older computers and deploying them for current employees, and organizing the supplies area of the Help Desk room so everything is easily accessible 
+    and easy to access for future new workers and interns.`,
   },
   {
     year: "September 2023 - April 2024",
     role: "Teachers Assistant for Calculus II",
     company: "Northeastern University",
-    description: `Grade weekly quizzes and midterms for students in Calculus classes, and record and upload grades in grading portal. Communicate with professors and students and clarify reasons for different grading decisions.`,
+    description: `I worked with a Professor of Calculus II at Northeastern to grade quizzes and tests of the students spread across three classes. Every week, I would go to pick up the
+    papers and spend time throughout my week grading those papers based off of the grading rubric I was given. I would log my hours for the week and when I was finished grading 
+    I would return the papers back to the professor's mailbox. If there were any issues the students would go to the professor first and if there were any questions after the student would
+    contact me.`,
   },
   {
     year: "June 2020 - August 2022",
     role: "Golf Coach",
     company: "Milton Hoosic Club",
-    description: `Interacted with children ages 3-14 and helped improve their golf skills, as well as love for the sport. Crafted new drills every week to keep the children entertained and excited about playing golf.`,
+    description: `I worked multiple years at a summer camp as a golf coach. At the camp the ages of the kids ranged from 3-14. There were separate age ranges of groups and I had to 
+    change the exercises the kids were doing depending on the age range of that group. The camp involved learning to communicate with the kids and their parents and seeing what
+    exercises they had fun doing while still learning the fundamentals of golf.`,
   },
   {
     year: "October 2021 - December 2022",

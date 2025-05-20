@@ -74,19 +74,28 @@ export const PROJECTS = [
     title: "Escape the Cave",
     image: project1,
     description:
-      "Designed a 3D game in Unity with a partner. Created a storyline with characters and enemies. Coded the entire game in C#.",
+      `I created and designed a 3D game in Unity with a partner as a final group project for my game design class. The game was fully coded using C#. The only requirements for the game were we had to use the concepts
+      we learned in class but other than that we were able to create whatever we wanted. We decided to we both love playing fantasy free roam games so that is what we wanted to go
+      with. We decided on a free roam puzzle based game. The story line was the player was camping with their friends and they got sent to get firewood, however they ended up getting
+      lost in the woods and falling into a cave. That is where the official game starts where the player is in the cave and can do some exploring. There are collectibles and also enemies 
+      so the player has to progress through multiple rooms which consistent of rooms like a Colosseum, underwater rooms, and other exploring rooms. There are multiple ways to actually
+      escape the cave and the player gets to decide which one they want to choose. There is also potential to find a large treasure at the end of the game.`,
   },
   {
     title: "Calendar",
     image: project2,
     description:
-      "Created a calendar app with partner in Java. Designed a GUI that had lines for a calendar and different colored blocks to represent events. Developed code to create, edit, and delete events.",
+      `Designed a working calendar GUI with a partner for my OOD course as our final project. This calendar was completely done in Java. The code created the GUI and drew the calendar on.
+      The events on the calendar were represented by colored blocks which you could click on to see the details of the event. Some of the features included switching the
+      users to show the events for that specific user, adding an event, removing an event, and loading a calendar in for a user. There were different screen components where you
+      could add and edit the information for an event.`,
   },
   {
     title: "Math Wordle",
     image: project3,
     description:
-      "Created a working Math Wordle game in Python where an equation is randomly generated and the user has to guess the variables in the equation.",
+      `For my final project in my computing fundamentals class I created a Math Wordle game completely in Python. The idea of the game was the same as regular Wordle. A math
+      equation was randomly generated and the user had a certain number of guesses to determine what the equation was.`,
   },
   {
     title: "Fifteen Game",

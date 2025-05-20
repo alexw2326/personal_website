@@ -28,7 +28,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hidden w-full lg:flex lg:w-1/2 justify-center items-center">
-                    <img className="rounded-2xl max-w-xs md:max-w-sm lg:max-w-md w-full h-auto" src={profilePic} alt="Alexandria Wright" />
+                    <img className="rounded-2xl max-w-xs md:max-w-sm lg:max-w-md w-full h-auto mt-14" src={profilePic} alt="Alexandria Wright" />
                 </div>
             </div>
         </div>

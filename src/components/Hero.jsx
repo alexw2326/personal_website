@@ -16,7 +16,7 @@ const Hero = () => {
                     to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
                         Computer Science Student
                     </span>
-                    <p className="my-2 max-w-xl py-6 font-light whitespace-pre">
+                    <p className="my-2 max-w-xl py-6 font-light whitespace-pre-line">
                         {HERO_CONTENT}
                     </p>
                 </div>

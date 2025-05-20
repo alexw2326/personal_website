@@ -66,7 +66,9 @@ export const EXPERIENCES = [
     year: "October 2021 - December 2022",
     role: "Ice Hockey Referee",
     company: "USA Hockey",
-    description: `Refereed about 3-4 games every weekend, and helped the children learn the rules of the game. Helped develop their skills while making sure the children expanded their love of the game.`,
+    description: `I went through referee training to get my USA hockey refereeing license, then I picked out games every weekend from a list of them. I communicated with the coaches and the players
+    to make sure everyone was having fun and safely learning the rules of ice hockey. I typically refereed the 10 and under games meaning the kids do not know the rules very well at that 
+    point, so it was my job to help guide them and make sure they were not doing anything dangerous.`,
   },
 ];
 

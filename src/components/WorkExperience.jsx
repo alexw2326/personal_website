@@ -15,7 +15,8 @@ const WorkExperience = () => {
                             <p className="text-sm text-neutral-700">{experiences.year}</p>
                             <h6 className="mb-2 font-bold">
                                 {experiences.role} - 
-                                <span className="text-sm text-neutral-600"> {experiences.company}, </span> 
+                                <span className="text-sm text-neutral-600"> {experiences.company} </span> 
+                                <br></br>
                                 <span className="text-sm text-neutral-600">{experiences.description}</span>
                             </h6>
                         </div>
@@ -47,7 +48,8 @@ const WorkExperience = () => {
                                         <p className="text-sm text-neutral-700">{experiences.year}</p>
                                         <h6 className="mb-2 font-bold">
                                             {experiences.role} - 
-                                            <span className="text-sm text-neutral-600"> {experiences.company}, </span> 
+                                            <span className="text-sm text-neutral-600"> {experiences.company} </span> 
+                                            <br></br>
                                             <span className="text-sm text-neutral-600">{experiences.description}</span>
                                         </h6>
                                     </div>

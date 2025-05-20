@@ -9,7 +9,7 @@ const NavBar = () => {
     <>
       <nav className="mb-6 flex items-center justify-between py-3 px-6 flex-wrap">
         <div className="flex items-center gap-4">
-          <Link to="/" className="cedarville-cursive-regular text-4xl">AW</Link>
+          <Link to="/" className="cedarville-cursive-regular text-4xl -ml-5 lg:ml-0">AW</Link>
           <div className="hidden lg:flex space-x-6 ml-20">
             <Link to="/education" className="text-lg hover:underline">Education</Link>
             <Link to="/computerknowledge" className="text-lg hover:underline">Computer Knowledge</Link>

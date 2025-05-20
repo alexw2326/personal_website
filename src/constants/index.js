@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/EscapeTheCave.png";
 import project2 from "../assets/projects/Calendar.png";
 import project3 from "../assets/projects/MathWordle.png";
-import project4 from "../assets/projects/FifteenGame.png";
+import project4 from "../assets/projects/Bridgit.png";
+import project5 from "../assets/projects/FifteenGame.png";
 
 export const HERO_CONTENT = `Hi! My name is Alexandria, but you can call me Alex. I am a fourth year computer 
 science major with a concentration in software. Throughout the years I have taken classes in and learned multiple coding languages including Java, Python, HTML, and CSS.`;
@@ -95,13 +96,24 @@ export const PROJECTS = [
     image: project3,
     description:
       `For my final project in my computing fundamentals class I created a Math Wordle game completely in Python. The idea of the game was the same as regular Wordle. A math
-      equation was randomly generated and the user had a certain number of guesses to determine what the equation was.`,
+      equation was randomly generated and the user had a certain number of guesses to determine what the equation was. If there was nothing in the generated equation, the character
+      would be red. If the character is in the equation but not in the right spot then it is yellow. If the character is in the right spot and in the equation it turns green. The entire game
+      happens in the terminal.`,
+  },
+  {
+    title: "Bridgit",
+    image: project4,
+    description:
+      `A partner and I created the bridgit game for fundamentals of computer science 2. The game was fully created in Java. The game consisted of a grid where dark pink represented one player
+      and light pink represented the other player. The white squares are the parts that can be filled in. The players turns will swap after they click on a white square. The goal of the game
+      is to get a path from one side to the other of your color. The other player can block your path and once a square is a color of pink, it cannot be changed by the other player.`,
   },
   {
     title: "Fifteen Game",
-    image: project4,
+    image: project5,
     description:
-      "Collaborated with a partner to create a game of 15 tiles in which the player has to order the tiles from 1-15 to win.",
+      `A partner and I created the fifteen game for fundamentals of computer science 2 course. The game was fully created in Java. The game has tiles numbered 1-15 with one empty space.
+      You can use the arrow keys to swap around the empty space and try to get all the tiles numbered left to right 1-15 and the game ends and the user has one.`,
   },
 ];
 

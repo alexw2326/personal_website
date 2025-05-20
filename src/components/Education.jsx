@@ -1,5 +1,5 @@
 import React from "react";
-import GradPhoto from "../assets/Grad.jpg";
+import NortheasternGrad from "../assets/Education.png";
 import { EDUCATION } from "../constants";
 
 const Education = () => {
@@ -9,7 +9,7 @@ const Education = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                        <img className="rounded-2xl w-10/12 lg:w-full max-w-full h-auto" src={GradPhoto} alt="Graduation" />
+                        <img className="rounded-2xl w-10/12 lg:w-full max-w-full h-auto" src={NortheasternGrad} alt="Graduation" />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8 flex items-center">

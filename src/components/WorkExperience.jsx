@@ -10,7 +10,7 @@ const WorkExperience = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8 flex flex-col items-center lg:items-start">
                     <div className="block lg:hidden py-4">
-                        <img className="rounded-2xl h-96 w-auto" src={AGBuilding} alt="Analysis Group Building"></img>
+                        <img className="rounded-2xl h-96 w-auto ml-10 lg:ml-1" src={AGBuilding} alt="Analysis Group Building"></img>
                         <p className="text-xs w-96 italic">
                             “111 Huntington Avenue.” BXP, 11 Mar. 2024, www.bxp.com/properties/prudential-center/111-huntington-avenue.
                             <br></br>

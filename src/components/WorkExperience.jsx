@@ -46,7 +46,7 @@ const WorkExperience = () => {
                     <div className="flex flex-wrap mt-12">
                     <div className="w-full lg:w-1/2">
                             <div className="flex justify-center">
-                                <img className="rounded-2xl h-auto w-96 mt-20" src={golfPic} alt="Golf"></img>
+                                <img className="rounded-2xl h-auto w-96 -mt-10 mb-10 lg:mt-20" src={golfPic} alt="Golf"></img>
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:p-8 flex items-center">

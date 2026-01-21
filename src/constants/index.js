@@ -3,6 +3,12 @@ import project2 from "../assets/projects/Calendar.png";
 import project3 from "../assets/projects/MathWordle.png";
 import project4 from "../assets/projects/Bridgit.png";
 import project5 from "../assets/projects/FifteenGame.png";
+import website from "../assets/projects/personal-website.png";
+import chv from "../assets/projects/webdev.jpg";
+import vital from "../assets/projects/vital.jpg";
+import metasearcher from "../assets/projects/internship.png";
+import weather from "../assets/projects/database.png";
+import forge from "../assets/projects/forge.png";
 
 export const HERO_CONTENT = `Hi! My name is Alexandria, but you can call me Alex. I am a fourth year computer 
 science major with a concentration in software. Throughout the years I have taken classes in and learned multiple coding languages including Java, Python, HTML, and CSS.`;
@@ -71,6 +77,73 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Personal Website",
+    image: website,
+    description:
+      `I created a personal website using Vite and GitHub that is currently
+      still being developed. I wanted to showcase everything I have learned by putting my
+      skills to use in creating this website completely from scratch. I expanded on different
+      projects I have worked on and included parts about me so people can get to know me. I
+      plan on adding features to make the website more interactive and exciting to use.`
+  },
+  {
+    title: "Document Metasearcher Prototype",
+    image: metasearcher,
+    description:
+      `With a team of interns, I helped develop a full-stack
+      application that allows users to type in a relevant term or phrase into a search bar and
+      get documents returned from all software applications used by the company. The
+      prototype uses AnythingLLM to make an API call to all available software applications
+      and give the JSON file of all relevant documents. The code then takes those JSON files
+      and puts them in human readable format including the link, title, and description of the
+      document.`
+  },
+  {
+    title: "Vital Workshop",
+    image: vital,
+    description:
+      `In the club First Byte, my team and I collaborated with another
+      Northeastern club called Vital. Vital was running a Hackathon and wanted us to host a
+      workshop to give a general overview on how to develop a website. We hosted a two-day
+      workshop starting on the first day with the basics of teaching HTML and TailwindCSS
+      and on the second day started going into Vite, React, and Supabase. Both days had
+      slideshows to present and a demonstration of what the code would look like as a
+      website.`
+  },
+  {
+    title: "Camp Harbor View Workshops",
+    image: chv,
+    description:
+      `In the CS curricula team for First Byte, the team 
+      collaborates with Camp Harbor View, that hosts after school and weekend programs for
+      Boston public school kids. We created and practiced the presentation and hosted a
+      workshop to teach basic coding concepts using Microbits. We presented and did
+      demonstrations with the kids in the form of coding games with the Microbits. We also
+      ran a Web Development workshop that we prepared and presented. The presentation included
+      a live demo where they could follow along on their own laptop and create a website
+      tailored to their resume.`
+  },
+  {
+    title: "Forge Website",
+    image: forge,
+    description:
+      `In the club Forge, I applied and was accepted to the website team. The
+      club only had a Notion page as the website, so we were tasked with starting the
+      creation and basic structure of the website. We used GitHub to collaborate and were
+      assigned separate tasks to work on throughout three months.`
+  },
+  {
+    title: "Weather Patterns Database",
+    image: weather,
+    description:
+      `I worked in a group in my CS5200 Database and Design
+      class, to come up with a database that used different hurricanes, atmospheric, oceanwave, and land-surface quantities datasets. We parsed through the data and created
+      tables to hold said data. We created trigger functions based off different characteristics
+      of the data, and we created a custom function to find the city based off the given
+      coordinates. We created multiple queries to test our data and make sure the tables were
+      properly populated.`
+  },
   {
     title: "Escape the Cave",
     image: project1,
